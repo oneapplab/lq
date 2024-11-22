@@ -1,4 +1,4 @@
-module github.com/yeknava/lq
+module github.com/oneapplab/lq
 
 go 1.23.0
 

@@ -1,6 +1,6 @@
 
 # lq
-lightweight queue runner package inspired by laravel queue for go.
+lightweight queue runner package inspired by Laravel queue for go.
 since using gorm it supports all databases gorm supports. (Mysql, PostgreSQL, SQLite, SQL Server and TiDB) (https://gorm.io/docs/connecting_to_the_database.html)
 the mechanism for loading queues is pulling from database.
 
@@ -24,7 +24,7 @@ import (
 	"syscall"
 	"time"
 
-	lq "github.com/yeknava/lq"
+	lq "github.com/oneapplab/lq"
 )
 
 // main queue cmd which works similar to laravel queue runner, listen on database
